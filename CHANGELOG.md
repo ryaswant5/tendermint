@@ -182,7 +182,7 @@ And as always, friendly reminder, that we have a [bug bounty program](https://ha
 - [mempool] [\#5483](https://github.com/tendermint/tendermint/pull/5483) Check tx size does not exceed available free space in the block. (@marbar3778)
 - [blockchain/v2] [\#5499](https://github.com/tendermint/tendermint/pull/5499) Fix "duplicate block enqueued by processor" panic (@melekes)
 - [abci/grpc] [\#5520](https://github.com/tendermint/tendermint/pull/5520) Return async responses in order, to avoid mempool panics. (@erikgrinaker)
-- [blockchain/v2] [\#5530](https://github.com/tendermint/tendermint/pull/5530) Fix "processed height 4541 but expected height 4540" panic (@melekes)
+- [blockchain/v2] [\#5530](https://github.com/tendermint/tendermint/pull/5530) Fix out of order block processing panic (@melekes)
 - [blockchain/v2] [\#5553](https://github.com/tendermint/tendermint/pull/5553) Make the removal of an already removed peer a noop (@melekes)
 - [evidence] [\#5610](https://github.com/tendermint/tendermint/pull/5610) Make it possible for abci evidence to be formed from tm evidence (@cmwaters)
 - [privval] [\#5638](https://github.com/tendermint/tendermint/pull/5638) Increase read/write timeout to 5s and calculate ping interval based on it (@JoeKash)
