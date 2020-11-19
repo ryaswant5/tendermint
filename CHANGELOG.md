@@ -126,7 +126,7 @@ And as always, friendly reminder, that we have a [bug bounty program](https://ha
 - [rpc] [\#5017](https://github.com/tendermint/tendermint/pull/5017) Add `/check_tx` endpoint to check transactions without executing them or adding them to the mempool (@melekes)
 - [statesync] Add state sync support, where a new node can be rapidly bootstrapped by fetching state snapshots from peers instead of replaying blocks. See the `[statesync]` config section.
 - [rpc] [\#5108](https://github.com/tendermint/tendermint/pull/5108) Subscribe using the websocket for new evidence events (@cmwaters)
-- [abci] [\#5174](https://github.com/tendermint/tendermint/pull/5174) Add amnesia evidence and remove mock and potential amnesia evidence from abci (@cmwaters)
+- [abci] [\#5174](https://github.com/tendermint/tendermint/pull/5174) Remove `MockEvidence` in favor of testing with actual evidence types (`DuplicateVoteEvidence` & `LightClientAttackEvidence`) (@cmwaters)
 - [abci] [\#5191](https://github.com/tendermint/tendermint/pull/5191) Add `InitChain.InitialHeight` field giving the initial block height (@erikgrinaker)
 - [abci] [\#5227](https://github.com/tendermint/tendermint/pull/5227) Add `ResponseInitChain.app_hash` which is recorded in genesis block (@erikgrinaker)
 - [genesis] [\#5191](https://github.com/tendermint/tendermint/pull/5191) Add `initial_height` field to specify the initial chain height (defaults to `1`) (@erikgrinaker)
