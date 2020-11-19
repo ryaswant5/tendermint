@@ -159,7 +159,6 @@ And as always, friendly reminder, that we have a [bug bounty program](https://ha
 - [blockchain] [\#5278](https://github.com/tendermint/tendermint/pull/5278) Verify only +2/3 of the signatures in a block when fast syncing. (@marbar3778)
 - [rpc] [\#5293](https://github.com/tendermint/tendermint/pull/5293) `/dial_peers` has added `private` and `unconditional` as parameters. (@marbar3778)
 - [types] [\#5340](https://github.com/tendermint/tendermint/pull/5340) Add check in `Header.ValidateBasic()` for block protocol version (@marbar3778)
-- [statesync] [\#5399](https://github.com/tendermint/tendermint/pull/5399) Add `discovery_time` configuration setting, and reduce default to 15s. (@erikgrinaker)
 - [privval] [\#5437](https://github.com/tendermint/tendermint/pull/5437) `NewSignerDialerEndpoint` can now be given `SignerServiceEndpointOption` (@erikgrinaker)
 - [types] [\#5490](https://github.com/tendermint/tendermint/pull/5490) Use `Commit` and `CommitSig` max sizes instead of vote max size to calculate the maximum block size. (@cmwaters)
 
