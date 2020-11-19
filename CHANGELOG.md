@@ -170,7 +170,7 @@ And as always, friendly reminder, that we have a [bug bounty program](https://ha
 - [consensus] [\#4895](https://github.com/tendermint/tendermint/pull/4895) Cache the address of the validator to reduce querying a remote KMS (@joe-bowman)
 - [consensus] [\#4970](https://github.com/tendermint/tendermint/pull/4970) Stricter on `LastCommitRound` check (@cuonglm)
 - [p2p] [\#5136](https://github.com/tendermint/tendermint/pull/5136) Fix error for peer with the same ID but different IPs (@valardragon)
-- [proxy] [\#5078](https://github.com/tendermint/tendermint/pull/5078) Fix a bug, where TM does not exit when ABCI app crashes (@melekes)
+- [proxy] [\#5078](https://github.com/tendermint/tendermint/pull/5078) Force Tendermint to exit when ABCI app crashes  (@melekes)
 - [evidence] [\#5170](https://github.com/tendermint/tendermint/pull/5170) change abci evidence time to the time the infraction happened not the time the evidence was committed on the block (@cmwaters)
 - [node] [\#5211](https://github.com/tendermint/tendermint/pull/5211) Don't attempt fast sync when the ABCI application specifies ourself as the only validator via `InitChain` (@erikgrinaker)
 - [libs/rand] [\#5215](https://github.com/tendermint/tendermint/pull/5215) Fix out-of-memory error on unexpected argument of Str() (@SadPencil)
