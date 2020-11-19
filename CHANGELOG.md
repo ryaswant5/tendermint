@@ -119,7 +119,6 @@ And as always, friendly reminder, that we have a [bug bounty program](https://ha
   - ... making it possible to update your ABCI application version via `EndBlock` response
 - [evidence] [\#4532](https://github.com/tendermint/tendermint/pull/4532) Handle evidence from light clients (@melekes)
 - [evidence] [#4821](https://github.com/tendermint/tendermint/pull/4821) Amnesia (light client attack) evidence can be detected, verified and committed (@cmwaters)
-- [light] [\#4532](https://github.com/tendermint/tendermint/pull/4532) Submit conflicting headers, if any, to a full node & all witnesses (@melekes)
 - [p2p] [\#4981](https://github.com/tendermint/tendermint/pull/4981) Expose `SaveAs` func on NodeKey (@melekes)
 - [rpc] [\#4532](https://github.com/tendermint/tendermint/pull/4923) Support `BlockByHash` query (@fedekunze)
 - [rpc] [\#4979](https://github.com/tendermint/tendermint/pull/4979) Support EXISTS operator in `/tx_search` query (@melekes)
