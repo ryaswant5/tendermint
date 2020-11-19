@@ -178,8 +178,6 @@ And as always, friendly reminder, that we have a [bug bounty program](https://ha
 - [store] [\#5382](https://github.com/tendermint/tendermint/pull/5382) Fix race conditions when loading/saving/pruning blocks (@erikgrinaker)
 - [light] [\#5307](https://github.com/tendermint/tendermint/pull/5307) Persist correct proposer priority in light client validator sets (@cmwaters)
 - [docker] [\#5385](https://github.com/tendermint/tendermint/pull/5385) Fix incorrect `time_iota_ms` default setting causing block timestamp drift (@erikgrinaker)
-- [consensus] [\#5431](https://github.com/tendermint/tendermint/pull/5431) Check BlockParts do not exceed Maximum block size. (@cmwaters)
-- [mempool] [\#5483](https://github.com/tendermint/tendermint/pull/5483) Check tx size does not exceed available free space in the block. (@marbar3778)
 - [blockchain/v2] [\#5499](https://github.com/tendermint/tendermint/pull/5499) Fix "duplicate block enqueued by processor" panic (@melekes)
 - [abci/grpc] [\#5520](https://github.com/tendermint/tendermint/pull/5520) Return async responses in order, to avoid mempool panics. (@erikgrinaker)
 - [blockchain/v2] [\#5530](https://github.com/tendermint/tendermint/pull/5530) Fix out of order block processing panic (@melekes)
